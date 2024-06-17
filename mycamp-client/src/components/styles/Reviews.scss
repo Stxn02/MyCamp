@@ -1,0 +1,9 @@
+@use "./vars/vars.scss" as *;
+
+.Reviews{
+	@media screen and (max-width: $max-tablet) {
+		.cards {
+			width: 90%;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.Main {
+	.strong {
+		background: #388CAF;
+		background: linear-gradient(to right, var(--color-main-1) 0%, var(--color-main-2)100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-weight: bold;
+		text-shadow: var(--color-main-1) 0px 0px 65px;
+	}
+	h1 {
+		text-shadow: black 0.2rem 0.2rem 0.2rem;
+	}
+}
